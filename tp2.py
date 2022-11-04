@@ -12,7 +12,7 @@ CREATEURS = "Marc-Antoine Gauthier et Alexis Tremblay"
 
 rejouer = True  # Booléen qui sert à contrôler la boucle pour rejouer
 
-# Convertion des deux listes vers un dictionnaire
+# Conversion des deux listes vers un dictionnaire
 capitales_par_pays = {}
 for i in range(len(liste_pays)):
     capitales_par_pays[liste_pays[i]] = liste_capitales[i]
@@ -119,4 +119,3 @@ while rejouer:
         else:
             print("Erreur - La réponse doit être oui ou non!")
 
-# Fin de programme
