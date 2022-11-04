@@ -118,3 +118,5 @@ while rejouer:
             rejouer, valide = True, True
         else:
             print("Erreur - La réponse doit être oui ou non!")
+
+# Fin de programme
